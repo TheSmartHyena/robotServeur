@@ -4,5 +4,23 @@
       { "src": "index.js",
           "use": "@now/node-server"
           }
+      ],
+  "routes": [
+        {
+          "src": "/robot",
+          "dest": "/index.js",
+          "methods": ["GET"]
+        },
+        {
+          "src": "/robot",
+          "dest": "/index.js",
+          "methods": ["POST"]
+        }
+        ,
+        {
+          "src": "/robot",
+          "dest": "/index.js",
+          "methods": ["DELETE"]
+        }
       ]
 }
