@@ -12,6 +12,11 @@
           "methods": ["GET"]
         },
         {
+          "src": "/users",
+          "dest": "/index.js",
+          "methods": ["GET"]
+        },
+        {
           "src": "/robot",
           "dest": "/index.js",
           "methods": ["POST"]

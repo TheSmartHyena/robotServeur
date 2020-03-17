@@ -20,6 +20,10 @@ async function initRoutes(app){
 initModels(app);
 initRoutes(app);
 
-app.listen(3000, function () {
+app.get('/users', (req, res) => {
+    res.json({"msg":"users"});
+})
+
+app.listen(5000, function () {
   console.log('Example app listening on port 3000!')
 })
